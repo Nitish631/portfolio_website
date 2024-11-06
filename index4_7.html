@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags in html</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <input type="text" pattern="[a-zA-Z0-9]+" placeholder="enter the value to assigne in name"
+                name="key to store value" id="specific identification">
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="suscribe" value="yes">
+            <label for="subscribe">SUBSCRIBE</label>
+            <input type="checkbox" id="like" name="like" value="yes">
+            <label for="like">LIKE</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment here</label>
+            <textarea placeholder="comment" rows="4" cols="50" id="comment"></textarea>
+        </div>
+        <div>
+            <select name="fruit">
+                <option value="apple">apple</option>
+                <option value="mango">mango</option>
+                <option value="banana">banana</option>
+                <option value="cherry"selected>acherry</option>
+            </select>
+        </div>
+        <div>
+            <input type="file" name="video" accept="video/*">
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submitted">
+            <input type="reset" name="reser" value="reseted">
+            <input type="button" name="click" value="clicked">
+            <input type="image" name="image_button" src="image1tiger.png" height="200">
+        </div>
+    </form>
+    <p>SOME ATTRIBUTES IN HTML ARE :-NAME,VALUE,ID,PLACEHOLDER,ACCEPT,MAXLENGTH,SIZE,PATTERN</p>
+    <p>CHECKED,AUTOFOCUS,REQUIRED,MULTIPLE,SELECTED</p>
+</body>
+
+</html>

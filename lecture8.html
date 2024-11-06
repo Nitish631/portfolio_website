@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline and block elements in html</title>
+</head><!-- COMMENT IN HTML-->
+<style>
+    input{/*OPTIONAL*/
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-image: linear-gradient(white, white), linear-gradient(45deg, #ff6b6b, #ffc371);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+div{
+    margin-bottom:15px;
+}
+
+</style>
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="Name">
+        </div>
+        <div><input type="text" placeholder="City"></div>
+        <div><input type="number" placeholder="Code"></div>
+        <span>
+            <input type="text" placeholder="Name">
+        </span>
+        <span><input type="text" placeholder="City"></span>
+        <span><input type="number" placeholder="Code"></span>
+    </form>
+</body>
+</html>

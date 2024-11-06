@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image,table,List in html</title>
+</head>
+<style>
+    table,th,td{
+        border:solid black;
+        border-collapse: collapse;
+    }
+</style>
+<body>
+    <img src="image1tiger.png" alt="tiger picture" height="300">,<br>
+    <!--tables-->
+    <!-- here THEAD, TBODY, TFOOT are used for grouping-->
+    <table>
+        <caption>Student Data</caption>
+        <thead>
+            <tr><th>Names</th><th>address</th><th>course</th></tr>
+        </thead>
+    <tbody>
+        <tr><td>Nitish</td><td>jahada</td><td>science</td></tr>
+        <tr><td>suman</td><td rowspan="2">katahari</td><td>hotelmanagement</td></tr>
+        <tr><td>Ritik</td><td>management</td></tr>
+        <tr><td colspan="2">ilam</td><td>hotelmanagement</td></tr>
+    </tbody>
+    <tfoot>
+        <tr><td>the</td><td>eiding of</td><td>table</td></tr>
+    </tfoot>
+    </table><br>
+    <!--listing in html. order list, unorder list, description list-->
+    <ul type="square">
+        <li>book</li>
+        <li>copies</li>
+        <li>laptops</li>
+    </ul>
+    <ol type="a">
+        <li>book</li>
+        <li>copies</li>
+        <li>laptops</li>
+    </ol>
+    <dl><!--description list-->
+        <dt>FOOD</dt><!--defination term-->
+        <dd>the food items in menu are pasta,pakora,chaumine,momo,paratha,daal roti
+        </dd><!--defination description-->
+        <dt>DRINKS</dt>
+        <dd>The drinks available are coke, fenta, lemon juice, beer</dd>
+    </dl>
+</body>
+</html>
